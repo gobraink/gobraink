@@ -1,21 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-   <title>Email Form Example</title>
+    <title>Using mailto link</title>
+    <style>
+        .container {
+            width: 400px;
+            border: 2px solid black;
+            padding: 15px;
+        }
+
+        h1 {
+            color: green;
+        }
+    </style>
 </head>
-<body style="font-family: Arial, sans-serif; padding: 20px;">
-   <h2>Student Contact Form</h2>
-   <form action="mailto:aisjk12@gmail.com" method="post" enctype="text/plain">
-      <label for="sname">Student Name:</label><br>
-      <input type="text" id="sname" name="sname" required><br><br>
-      
-      <label for="ssubject">Subject:</label><br>
-      <input type="text" id="ssubject" name="ssubject" required><br><br>
-      
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
-      
-      <input type="submit" value="Send Email">
-   </form>
+
+<body>
+    <div class="container">
+        <h1>GeeksforGeeks</h1>
+        <b>Using mailto link</b>
+        <form method="POST" action="mailto: aisjk12@gmail.com" 
+              enctype="multipart/form-data">
+            <div class="control">
+                Name:
+                <input aria-required="" id="name" type="text" />
+            </div>
+            <br>
+            <div class="control">
+                Ph no:
+                <input aria-required="" id="mobile_number" type="tel" />
+            </div>
+            <br>
+            <div class="control">
+                Suggestion:
+                <textarea rows="7" cols="30" name="comment">
+                </textarea>
+            </div>
+            <br>
+            <div class="control">
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
 </body>
+
 </html>
