@@ -264,8 +264,9 @@ input[type=submit]:hover {
     <td style="width:580px; height:400px;" >
   
       <div class="cont">
-  <form action="https://formsubmit.co/aisjk12@gmail.com" method="POST" onsubmit="setTimeout(() => { this.reset(); }, 10)">
-    <label for="fname">Name</label>
+  <form action="https://formsubmit.co/aisjk12@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="https://yourdomain.com">
+	  <label for="fname">Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 	<label for="people">Who are you?</label>
     <select id="people" name="people">
