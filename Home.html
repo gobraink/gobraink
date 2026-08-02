@@ -394,7 +394,7 @@
     <script>
         function getVisitCount() {
             // Replace 'yourwebsite.com' with your actual domain name to create a unique key namespace
-            fetch('https://gobraink.github.io/gobraink/Home.html')
+            fetch('https://gobraink.github.io/gobraink')
                 .then(res => res.json())
                 .then(res => {
                     document.getElementById('visit-count').innerText = res.value;
