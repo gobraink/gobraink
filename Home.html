@@ -33,16 +33,7 @@
   }
 </style>
     
-<script>
-  function cb(response) {
-      document.getElementById('visit-count').innerText = response.value;
-  }
-</script>
-<!-- 
-  Replace 'yourwebsite.com' and 'homepage' in the URL below 
-  with your actual domain name and page name to make your key unique!
--->
-<script async src="https://gobraink.github.io/gobraink/Home.html"></script>
+
 
 
 
@@ -386,6 +377,16 @@
     <div class="visitor-counter-box">
   <p>👁️ Total Visits: <span id="visit-count">Loading...</span></p>
 </div>
+    <script>
+  function cb(response) {
+      document.getElementById('visit-count').innerText = response.value;
+  }
+</script>
+<!-- 
+  Replace 'yourwebsite.com' and 'homepage' in the URL below 
+  with your actual domain name and page name to make your key unique!
+-->
+<script async src="https://gobraink.github.io/gobraink/Home.html"></script>
 
     <div class="container mt-3">
         <table class="container tb" style="height:100px;">
