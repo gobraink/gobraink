@@ -15,6 +15,37 @@
     <link type="image" rel="shortcut icon" href="logo_code.jpg" />
 
 
+<style>
+  /* Optional styling to make your counter look clean */
+  .visitor-counter-box {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #1f2937;
+  }
+  .visitor-counter-box span {
+    font-weight: bold;
+    color: #2563eb;
+  }
+</style>
+    
+<script>
+  function cb(response) {
+      document.getElementById('visit-count').innerText = response.value;
+  }
+</script>
+<!-- 
+  Replace 'yourwebsite.com' and 'homepage' in the URL below 
+  with your actual domain name and page name to make your key unique!
+-->
+<script async src="https://gobraink.github.io/gobraink/Home.html"></script>
+
+
+
 </head>
 
 <body class="pagecolor">
@@ -351,6 +382,10 @@
 
     </table>
     </div>
+
+    div class="visitor-counter-box">
+  <p>👁️ Total Visits: <span id="visit-count">Loading...</span></p>
+</div>
 
     <div class="container mt-3">
         <table class="container tb" style="height:100px;">
