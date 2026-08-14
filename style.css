@@ -1,0 +1,101 @@
+.imgsize
+{
+    height:300px;
+}
+.imgbox
+{
+  height:400px;
+  width:400px;
+
+}
+.pagecolor
+{
+    background-color:burlywood;
+}
+.backcolor
+{
+  background-color:midnightblue;
+  
+}
+.txtcolor{
+  color: bisque;
+ 
+}
+.align
+{
+  text-align:right;
+}
+.piccaption
+{
+  color:cornsilk;
+  size:5px;
+}
+.piccaption2
+{
+  color:black;
+  size:5px;
+}
+.tb
+{
+  background-color:black;
+  color:chartreuse;
+  
+  
+}
+.footercolor
+{
+  background-color:olive;
+  color:papayawhip;
+}
+.bnw
+{
+  height:70px;
+}
+.bf
+{
+  background-color:black;
+  
+  color:blanchedalmond;
+  text-align:center;
+}
+.us
+{
+  background-color:black;
+  
+  color:greenyellow;
+  text-align:center;
+
+}
+
+.st
+{
+  font-family:'monotype corsiva';
+  color:brown;
+  
+  
+}
+.cst
+{
+  background-color:dimgray;
+  color:maroon;
+  
+}
+.dt
+{
+  color:crimson;
+  font-family:'Arial Black';
+}
+.sb
+{
+  color:mediumblue;
+  font-family:'monotype corsiva';
+}
+.fc
+{
+color:bisque;
+}
+.tw
+{
+  width:500px;
+  height:800px;
+}
